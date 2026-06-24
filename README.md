@@ -1,15 +1,14 @@
-number = int(input("Enter a number: "))
+# Day 5: Object-Oriented Programming
 
-if number > 1:
-    is_prime = True
-    for i in range(2, number):
-        if number % i == 0:
-            is_prime = False
-            break
-            
-    if is_prime:
-        print(f"{number} is a prime number.")
-    else:
-        print(f"{number} is not a prime number.")
-else:
-    print(f"{number} is not a prime number.")
+This folder contains an Employee Management System built using Python OOP concepts. 
+
+## How to run the program:
+1. Open your terminal.
+2. Navigate to the `day5-oop` folder.
+3. Run the program using the command:
+   `python employee_management.py`
+4. Follow the on-screen terminal menu to interact with the system.
+
+## Files Included:
+* `employee_management.py`: The main application code.
+* `class_diagram.png` / `.jpg`: The visual class structure of the application.

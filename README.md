@@ -1,15 +1,15 @@
-number = int(input("Enter a number: "))
+# Day 3: Python Fundamentals
 
-if number > 1:
-    is_prime = True
-    for i in range(2, number):
-        if number % i == 0:
-            is_prime = False
-            break
-            
-    if is_prime:
-        print(f"{number} is a prime number.")
-    else:
-        print(f"{number} is not a prime number.")
-else:
-    print(f"{number} is not a prime number.")
+This folder contains five basic Python programs. 
+
+## How to run each program:
+1. Open your terminal.
+2. Navigate to the `day3-python` folder.
+3. Run the programs using the `python` command followed by the filename. 
+
+**Examples:**
+* `python calculator.py`
+* `python prime_numbers.py`
+* `python palindrome.py`
+* `python vowel_consonant_counter.py`
+* `python largest_number.py`

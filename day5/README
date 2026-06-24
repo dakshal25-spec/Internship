@@ -1,0 +1,14 @@
+# Day 5: Object-Oriented Programming
+
+This folder contains an Employee Management System built using Python OOP concepts. 
+
+## How to run the program:
+1. Open your terminal.
+2. Navigate to the `day5-oop` folder.
+3. Run the program using the command:
+   `python employee_management.py`
+4. Follow the on-screen terminal menu to interact with the system.
+
+## Files Included:
+* `employee_management.py`: The main application code.
+* `class_diagram.png` / `.jpg`: The visual class structure of the application.

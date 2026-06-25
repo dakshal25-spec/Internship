@@ -1,15 +1,14 @@
-number = int(input("Enter a number: "))
+# Day 4: Functions and Data Structures
 
-if number > 1:
-    is_prime = True
-    for i in range(2, number):
-        if number % i == 0:
-            is_prime = False
-            break
-            
-    if is_prime:
-        print(f"{number} is a prime number.")
-    else:
-        print(f"{number} is not a prime number.")
-else:
-    print(f"{number} is not a prime number.")
+This folder contains Python programs focusing on core data structures (lists, dictionaries) and reusable functions.
+
+## How to run each program:
+1. Open your terminal.
+2. Navigate to the `day4-functions-ds` folder.
+3. Run the programs using the `python` command followed by the filename. 
+
+**Examples:**
+* `python remove_duplicates.py`
+* `python word_frequency.py`
+* `python employee_details.py`
+* `python search_employee.py`

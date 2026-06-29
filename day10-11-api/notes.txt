@@ -1,0 +1,11 @@
+What is an API?
+An API (Application Programming Interface) allows two applications to talk to each other. It acts like a waiter taking your order to the kitchen and bringing the food back.
+
+What is a REST API?
+A REST API uses HTTP rules to send and receive data. Each URL represents a resource, and HTTP methods define the actions.
+
+HTTP Methods:
+GET (Fetch data), POST (Create new data), PUT (Update data), DELETE (Remove data).
+
+Status Codes:
+200 (OK), 201 (Created), 400 (Bad Request), 404 (Not Found), 500 (Internal Server Error).
